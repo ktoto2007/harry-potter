@@ -1,5 +1,15 @@
 import './App.css'
 
+export type CardProps = {
+  url: string
+  title: string
+  actor: string
+  gender: string
+  house: string
+  wand_core: string
+  alive: string
+}
+
 function App() {
 
   return (
@@ -28,7 +38,24 @@ function App() {
         </div>
       </header>
       <main>
-        
+        <div className="card">
+            <img src="" alt='' />
+            <h2>Hermione Granger</h2>
+            <p>Actor: Emma Watson</p>
+            <p>Gender: female</p>
+            <p>House: Gryffindor</p>
+            <p>Wand core: dragon heartstring</p>
+            <p>Alive: yes</p>
+        </div>
+        <div className="card">
+            <img src="" alt='' />
+            <h2>Hermione Granger</h2>
+            <p>Actor: Emma Watson</p>
+            <p>Gender: female</p>
+            <p>House: Gryffindor</p>
+            <p>Wand core: dragon heartstring</p>
+            <p>Alive: yes</p>
+        </div>
       </main>
     </>
   )

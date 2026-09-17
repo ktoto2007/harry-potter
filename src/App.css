@@ -59,5 +59,16 @@ header {
         border-radius: 5px;
         border: 1px #CED4DA solid;
     }
+}
 
+main {
+    display: flex;
+    width: 688px;
+    margin: 80px auto 0;
+    gap: 20px;
+    .card {
+        width: 334px;
+        height: 40px;
+        
+    }
 }
